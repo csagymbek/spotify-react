@@ -11,7 +11,7 @@ export default function Player({ spotify }) {
         {/* Sidebar  */}
         <Sidebar />
         {/* Body  */}
-        <Body />
+        <Body spotify={spotify} />
       </div>
       {/* Footer  */}
       <Footer />
